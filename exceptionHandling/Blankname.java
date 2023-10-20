@@ -1,12 +1,12 @@
 package exceptionHandling;
 
-public class Blankname{ 
+public class BlankName{ 
 		public static void main(String[] args) {
 			try {
-				EmployeeName employee1= new EmployeeName("John", "Doe");
+				EmployeeName employee1= new EmployeeName("Hari", "Vardhan");
 				System.out.println("Employee 1 Full Name: " +  employee1.getFullName() );
 				
-				EmployeeName employee2 =  new EmployeeName ("", "Smith");
+				EmployeeName employee2 =  new EmployeeName ("", "Shankarm");
 				System.out.println("Employee 2 Full Name: " + employee2.getFullName());
 			}
 			catch (FirstNameofEmployee e) {
