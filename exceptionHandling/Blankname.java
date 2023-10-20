@@ -1,5 +1,9 @@
 package exceptionHandling;
-
+/**
+ * EmployeeName of First Name and Last Name
+ * @author sgolla
+ *
+ */
 public class BlankName{ 
 		public static void main(String[] args) {
 			try {
